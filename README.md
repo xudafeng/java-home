@@ -3,7 +3,6 @@ java-home
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
 
@@ -11,8 +10,6 @@ java-home
 [npm-url]: https://npmjs.org/package/java-home
 [travis-image]: https://img.shields.io/travis/xudafeng/java-home.svg?style=flat-square
 [travis-url]: https://travis-ci.org/xudafeng/java-home
-[coveralls-image]: https://img.shields.io/coveralls/xudafeng/java-home.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/xudafeng/java-home?branch=master
 [node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/java-home.svg?style=flat-square
