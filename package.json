@@ -1,6 +1,6 @@
 {
   "name": "java-home",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "java-home",
   "keywords": [
     "JAVA_HOME"
@@ -8,14 +8,12 @@
   "bin": {
     "java-home": "./bin/java-home"
   },
-  "main": "index.js",
+  "main": "./lib/java-home",
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/java-home.git"
   },
   "dependencies": {
-    "co": "3",
-    "lodash": "^3.10.1"
   },
   "devDependencies": {
     "mocha": "*",
