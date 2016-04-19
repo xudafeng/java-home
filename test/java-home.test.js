@@ -13,7 +13,7 @@
 
 'use strict';
 
-var javaHome = require('../');
+var javaHome = require('..');
 
 describe('test', function(){
   it('getPath should be a promise', function(done) {

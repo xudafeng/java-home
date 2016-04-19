@@ -1,5 +1,14 @@
-language: node_js
-node_js:
-  - '0.10'
-script: "npm run test-travis"
+language: java
+sudo: false
+jdk:
+  - openjdk7
+  - oraclejdk7
+env:
+  - JAVA_HOME=/usr/lib/jvm/java-7-oracle
+before_script:
+    - . $HOME/.nvm/nvm.sh
+    - nvm install 4
+    - nvm use 4
+    - npm install
+script: "make travis"
 after_script: "npm install coveralls@2 && cat ./coverage/lcov.info | coveralls"
