@@ -13,14 +13,14 @@
     "type": "git",
     "url": "git://github.com/xudafeng/java-home.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "jshint": "*",
+    "co-mocha": "^1.1.2",
     "istanbul": "*",
-    "pre-commit": "1.1.1"
+    "jshint": "*",
+    "mocha": "*",
+    "pre-commit": "1.1.1",
+    "should": "*"
   },
   "scripts": {
     "test": "make test",

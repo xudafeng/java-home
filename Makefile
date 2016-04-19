@@ -4,16 +4,21 @@ npm_bin= $$(npm bin)
 all: test
 install:
 	@npm install
-test: install
+test:
 	@node --harmony \
 		${npm_bin}/istanbul cover ${npm_bin}/_mocha \
 		-- \
 		--timeout 10000 \
 		--require co-mocha
+travis: install
+	@NODE_ENV=test $(BIN) $(FLAGS) \
+		./node_modules/.bin/istanbul cover \
+		./node_modules/.bin/_mocha \
+		--report lcovonly \
+		-- -u exports \
+		$(REQUIRED) \
+		$(TESTS) \
+		--bail
 jshint:
 	@${npm_bin}/jshint .
-pull:
-	@git pull origin ${git_version}
-push:
-	@git push origin ${git_version}
 .PHONY: test
