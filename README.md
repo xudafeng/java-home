@@ -19,13 +19,13 @@ java-home
 
 ## Installment
 
-```bash
+```shell
 $ npm i java-home --save
 ```
 
 ## Usage
 
-```js
+```javascript
 var co = require('co');
 var JAVA_HOME = require('../lib/java-home');
 
