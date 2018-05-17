@@ -1,7 +1,7 @@
 {
   "name": "java-home",
-  "version": "1.0.4",
-  "description": "java-home",
+  "version": "1.0.6",
+  "description": "JAVA_HOME",
   "keywords": [
     "JAVA_HOME"
   ],
@@ -18,22 +18,17 @@
   },
   "devDependencies": {
     "co-mocha": "^1.1.2",
-    "istanbul": "*",
     "jshint": "*",
     "mocha": "*",
-    "pre-commit": "1.1.1",
+    "pre-commit": "^1.2.2",
     "should": "*"
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "nyc --reporter=lcov --reporter=text mocha",
+    "lint": "jshint ."
   },
   "pre-commit": [
-    "jshint"
+    "lint"
   ],
-  "homepage": "https://github.com/xudafeng/java-home",
-  "author": "xudafeng",
-  "email": "xudafeng@126.com",
-  "blog": "http://xdf.me",
   "license": "MIT"
 }

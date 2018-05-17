@@ -1,5 +1,4 @@
-java-home
-=========
+# java-home
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -8,9 +7,9 @@ java-home
 
 [npm-image]: https://img.shields.io/npm/v/java-home.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/java-home
-[travis-image]: https://img.shields.io/travis/xudafeng/java-home.svg?style=flat-square
-[travis-url]: https://travis-ci.org/xudafeng/java-home
-[node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/macacajs/java-home.svg?style=flat-square
+[travis-url]: https://travis-ci.org/macacajs/java-home
+[node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/java-home.svg?style=flat-square
 [download-url]: https://npmjs.org/package/java-home
@@ -19,7 +18,7 @@ java-home
 
 ## Installment
 
-```shell
+```bash
 $ npm i java-home --save
 ```
 
@@ -27,6 +26,7 @@ $ npm i java-home --save
 
 ```javascript
 var co = require('co');
+
 var JAVA_HOME = require('../lib/java-home');
 
 JAVA_HOME.getPath(function(error, javaHome) {
@@ -40,5 +40,3 @@ JAVA_HOME.getPath(function(error, javaHome) {
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 xdf

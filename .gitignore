@@ -5,6 +5,7 @@ npm-debug.log
 Thumbs.db
 coverage/
 .project
+.nyc_output
 build/
 *.sw*
 *.un~
