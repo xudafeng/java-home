@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "co-mocha": "^1.1.2",
+    "git-contributor": "^1.0.8",
     "jshint": "*",
     "mocha": "*",
     "pre-commit": "^1.2.2",
@@ -25,7 +26,9 @@
   },
   "scripts": {
     "test": "nyc --reporter=lcov --reporter=text mocha",
-    "lint": "jshint ."
+    "lint": "jshint .",
+    "contributor": "git-contributor",
+    "ci": "npm run lint && npm run test"
   },
   "pre-commit": [
     "lint"
