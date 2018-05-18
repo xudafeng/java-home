@@ -21,6 +21,7 @@
     "git-contributor": "^1.0.8",
     "jshint": "*",
     "mocha": "*",
+    "nyc": "^11.8.0",
     "pre-commit": "^1.2.2",
     "should": "*"
   },
