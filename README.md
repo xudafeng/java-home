@@ -7,8 +7,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/java-home.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/java-home
-[travis-image]: https://img.shields.io/travis/macacajs/java-home.svg?style=flat-square
-[travis-url]: https://travis-ci.org/macacajs/java-home
+[travis-image]: https://img.shields.io/travis/xudafeng/java-home.svg?style=flat-square
+[travis-url]: https://travis-ci.org/xudafeng/java-home
 [node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/java-home.svg?style=flat-square
